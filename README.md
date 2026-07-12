@@ -8,7 +8,7 @@ Planowanie krótkiego wypadu dla 2 osób do Wiednia: **3 dni**, tempo bez pośpi
 
 - **`plan/`** - plan dzień po dniu w markdownie: [`wieden.md`](plan/wieden.md). Kończy się orientacyjną wyceną kosztów dla 2 osób. Zobacz [`plan/README.md`](plan/README.md) dla skrótu.
 - **`scripts/build_data.py`** - skrypt Pythona (uruchamiany przez `uv run`) generujący dane dla interaktywnej strony z plików w `plan/`.
-- **`web/`** - interaktywna prezentacja (React + Vite): oś czasu dzień po dniu z miniaturami zdjęć i wyceną. Zobacz sekcję niżej.
+- **`web/`** - interaktywna prezentacja (React + Vite): mapa Leaflet z atrakcjami i restauracjami, kafelki (jeden na miejsce) z linkami do Google Maps, oś czasu dzień po dniu z miniaturami zdjęć i wyceną. Zobacz sekcję niżej.
 
 ## Zależności (uv)
 

@@ -1,14 +1,40 @@
 import MarkdownText from './MarkdownText'
+import WienMap from './WienMap'
+import PlaceCards from './PlaceCards'
 
 function imageForDay(dzien) {
   return dzien.image ? `${import.meta.env.BASE_URL}${dzien.image}` : null
 }
 
+function punktyMapy(plan) {
+  const atrakcje = (plan.atrakcje ?? []).map((p) => ({ ...p, rodzaj: 'atrakcja' }))
+  const restauracje = (plan.restauracje ?? []).map((p) => ({
+    ...p,
+    rodzaj: 'restauracja',
+  }))
+  return [...atrakcje, ...restauracje]
+}
+
+function srodekMapy(punkty) {
+  if (!punkty.length) return [48.2082, 16.3738]
+  const lat = punkty.reduce((s, p) => s + p.lat, 0) / punkty.length
+  const lng = punkty.reduce((s, p) => s + p.lng, 0) / punkty.length
+  return [lat, lng]
+}
+
 export default function PlanTimeline({ plan }) {
+  const punkty = punktyMapy(plan)
+
   return (
     <div>
       <p className="plan-intro">{plan.intro}</p>
 
+      <WienMap punkty={punkty} center={srodekMapy(punkty)} />
+
+      <PlaceCards tytul="Atrakcje" punkty={plan.atrakcje ?? []} />
+      <PlaceCards tytul="Gdzie zjeść i napić się kawy" punkty={plan.restauracje ?? []} />
+
+      <h2 className="timeline-title">Plan dzień po dniu</h2>
       <div className="timeline">
         {plan.dni.map((dzien) => {
           const image = imageForDay(dzien)

@@ -78,6 +78,186 @@
         "- Tempo dla osoby 60+: jedna główna atrakcja przed południem, potem długa przerwa na kawę i odpoczynek, ewentualnie druga lekka rzecz po południu. Nie ma potrzeby robić wszystkiego jednego dnia.",
         "- Kawiarnie z tradycją (Café Sacher, Central, Demel) bywają oblegane - najlepiej wpaść poza szczytem obiadowym; wszędzie są miejsca siedzące i obsługa kelnerska.",
         "- Wiedeńskie chodniki i wnętrza są przyjazne (windy, płaskie centrum), ale wygodne buty i tak się przydadzą."
+      ],
+      "atrakcje": [
+        {
+          "nazwa": "Katedra św. Szczepana",
+          "kategoria": "Kościół",
+          "lat": 48.2084114,
+          "lng": 16.3734707,
+          "opis": "Gotycki symbol Wiednia w samym sercu Starego Miasta. Na taras widokowy można wjechać windą, bez wspinaczki po schodach.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2084114,16.3734707&query_place_id=ChIJz-w_Ip8HbUcRWTHc-vNXlxc"
+        },
+        {
+          "nazwa": "Pałac Schönbrunn",
+          "kategoria": "Pałac",
+          "lat": 48.1858124,
+          "lng": 16.3127641,
+          "opis": "Letnia rezydencja cesarska z rozległymi ogrodami. Apartamenty zwiedza się z audioprzewodnikiem, po parku spaceruje w wolnym tempie (ławki, cień, kawiarnia).",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.1858124,16.3127641&query_place_id=ChIJv3zAHAmobUcRyYvq5F26aU4"
+        },
+        {
+          "nazwa": "Pałac Hofburg",
+          "kategoria": "Pałac",
+          "lat": 48.2056578,
+          "lng": 16.3647803,
+          "opis": "Zimowa rezydencja Habsburgów w centrum: apartamenty cesarskie, Muzeum Sisi i skarbiec. Wszystko blisko siebie, na płaskim terenie.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2056578,16.3647803&query_place_id=ChIJ3wYgv5kHbUcRX0LEFIAWhYY"
+        },
+        {
+          "nazwa": "Opera Wiedeńska",
+          "kategoria": "Muzyka",
+          "lat": 48.2034306,
+          "lng": 16.3692034,
+          "opis": "Jedna z najsłynniejszych scen operowych świata. Można zwiedzać z przewodnikiem w dzień albo wybrać się na wieczorny spektakl (miejsca siedzące).",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2034306,16.3692034&query_place_id=ChIJ1b8dhpwHbUcRVn03JY0mWf0"
+        },
+        {
+          "nazwa": "Kunsthistorisches Museum",
+          "kategoria": "Muzeum",
+          "lat": 48.2038016,
+          "lng": 16.3617874,
+          "opis": "Muzeum Historii Sztuki z Bruegelem i Vermeerem. Wnętrza z windami, ławki w salach, klimatyzacja w upał - idealne na spokojne popołudnie.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2038016,16.3617874&query_place_id=ChIJ8XfPY5oHbUcRQbimbLVSYG8"
+        },
+        {
+          "nazwa": "Pałac Belweder",
+          "kategoria": "Muzeum",
+          "lat": 48.1914751,
+          "lng": 16.3809322,
+          "opis": "Barokowy pałac z „Pocałunkiem\" Klimta i największym zbiorem jego dzieł. Ogrody dostępne bez biletu, spokojny spacer między dwoma pałacami.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.1914751,16.3809322&query_place_id=ChIJpZ4LAn0HbUcRB3aToFL8ZUo"
+        },
+        {
+          "nazwa": "Naschmarkt",
+          "kategoria": "Targ",
+          "lat": 48.1986788,
+          "lng": 16.3635727,
+          "opis": "Najsłynniejszy targ Wiednia: stragany z serami, oliwkami, przyprawami i mnóstwo miejsc, żeby usiąść na kawę lub przekąskę. Płaski, łatwy do przejścia.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.1986788,16.3635727"
+        },
+        {
+          "nazwa": "Diabelski młyn (Prater)",
+          "kategoria": "Widok",
+          "lat": 48.2166995,
+          "lng": 16.3959008,
+          "opis": "Zabytkowy Riesenrad z 1897 r. Powolna, spokojna przejażdżka w przeszklonej gondoli z widokiem na całe miasto - żadnego wysiłku.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2166995,16.3959008&query_place_id=ChIJJYWNjA8HbUcRBlfleWeh1qw"
+        }
+      ],
+      "restauracje": [
+        {
+          "nazwa": "Figlmüller (Wollzeile)",
+          "kategoria": "Sznycel",
+          "lat": 48.2093669,
+          "lng": 16.3746338,
+          "opis": "Legendarny „dom sznycla\" - kotlet większy niż talerz. Blisko katedry, warto rezerwować stolik.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2093669,16.3746338&query_place_id=ChIJyUHiB5EHbUcReYQd2GSG7kg"
+        },
+        {
+          "nazwa": "Plachutta (Wollzeile)",
+          "kategoria": "Kuchnia wiedeńska",
+          "lat": 48.207521,
+          "lng": 16.378672,
+          "opis": "Świątynia Tafelspitzu (gotowana wołowina po cesarsku) podawanego w miedzianym garnku. Elegancko, ale bez sztywności.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.207521,16.378672&query_place_id=ChIJ8aGpZXUHbUcR7RhDMQpSArs"
+        },
+        {
+          "nazwa": "Gasthaus Pöschl",
+          "kategoria": "Kuchnia wiedeńska",
+          "lat": 48.2066898,
+          "lng": 16.373828,
+          "opis": "Mała, przytulna gospoda z klasyką w domowym wydaniu. Kameralnie, spokojnie, blisko centrum.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2066898,16.373828&query_place_id=ChIJp324WJ4HbUcRb3WRtwYb7Dc"
+        },
+        {
+          "nazwa": "Griechenbeisl",
+          "kategoria": "Kuchnia wiedeńska",
+          "lat": 48.2107455,
+          "lng": 16.3772573,
+          "opis": "Najstarsza gospoda Wiednia (XV w.), historyczne wnętrza. Klasyczna kuchnia w zabytkowej scenerii.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2107455,16.3772573&query_place_id=ChIJxbJGSKAHbUcRYkajfP16obQ"
+        },
+        {
+          "nazwa": "Restaurant Ofenloch",
+          "kategoria": "Kuchnia wiedeńska",
+          "lat": 48.2109107,
+          "lng": 16.3698038,
+          "opis": "Tradycyjna restauracja w cichej uliczce, klimat starego Wiednia i solidne porcje.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2109107,16.3698038&query_place_id=ChIJ1UlZeaIHbUcRdLfcFYMRt2k"
+        },
+        {
+          "nazwa": "Gasthaus Pfudl",
+          "kategoria": "Kuchnia wiedeńska",
+          "lat": 48.208264,
+          "lng": 16.3782733,
+          "opis": "Swojski beisl z klasyką: gulasz, sznycel, sztrudel. Bezpretensjonalnie i w rozsądnej cenie.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.208264,16.3782733&query_place_id=ChIJmVlX4J8HbUcRdlcww7tgyrE"
+        },
+        {
+          "nazwa": "Zum Schwarzen Kameel",
+          "kategoria": "Elegancko",
+          "lat": 48.2100189,
+          "lng": 16.3682914,
+          "opis": "Kultowy lokal z 1618 r.: bar z kanapkami na stojąco i elegancka restauracja obok. Świetne wino i klasyka.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2100189,16.3682914&query_place_id=ChIJ7Wt7ZJgHbUcRhmIQOTicWhs"
+        },
+        {
+          "nazwa": "Vestibül (Burgtheater)",
+          "kategoria": "Elegancko",
+          "lat": 48.2099567,
+          "lng": 16.3611108,
+          "opis": "Restauracja w gmachu Burgtheater, wykwintnie ale spokojnie, dobra na uroczystą kolację przy Ringu.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2099567,16.3611108&query_place_id=ChIJH0rFSJYHbUcRTwKtKwYkdak"
+        },
+        {
+          "nazwa": "Café Sacher",
+          "kategoria": "Kawiarnia",
+          "lat": 48.2039459,
+          "lng": 16.3698418,
+          "opis": "Dom oryginalnego tortu Sachera, tuż przy Operze. Elegancka kawiarnia z pełną obsługą.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2039459,16.3698418&query_place_id=ChIJI85wbpwHbUcR2nlviUzwg9s"
+        },
+        {
+          "nazwa": "Café Central",
+          "kategoria": "Kawiarnia",
+          "lat": 48.2104274,
+          "lng": 16.3654339,
+          "opis": "Najsłynniejsza kawiarnia miasta w pięknym pałacu Ferstel, dawne miejsce spotkań literatów. Ciasta i lekkie dania.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2104274,16.3654339&query_place_id=ChIJLzsM95cHbUcRSS5C-z-H-ls"
+        },
+        {
+          "nazwa": "Demel",
+          "kategoria": "Kawiarnia",
+          "lat": 48.2085962,
+          "lng": 16.3672185,
+          "opis": "Cesarska cukiernia przy Kohlmarkt, wypieki na najwyższym poziomie i witryna jak muzeum.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2085962,16.3672185&query_place_id=ChIJiY3_UpgHbUcRWCIbHu4EWXY"
+        },
+        {
+          "nazwa": "Café Landtmann",
+          "kategoria": "Kawiarnia",
+          "lat": 48.2115469,
+          "lng": 16.3615167,
+          "opis": "Dostojna kawiarnia przy Ringu (obok Burgtheater), przestronna, z tarasem i pełnym menu.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2115469,16.3615167&query_place_id=ChIJualQc5wHbUcRrzBxds3JZ7I"
+        },
+        {
+          "nazwa": "Café Mozart",
+          "kategoria": "Kawiarnia",
+          "lat": 48.2042832,
+          "lng": 16.3694552,
+          "opis": "Klasyczna kawiarnia za Operą, spokojne miejsce na kawę i strudel między zwiedzaniem.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2042832,16.3694552&query_place_id=ChIJualQc5wHbUcRhRfcsbPrVF0"
+        },
+        {
+          "nazwa": "Café Hawelka",
+          "kategoria": "Kawiarnia",
+          "lat": 48.2079316,
+          "lng": 16.3697835,
+          "opis": "Kameralna, lekko bohemska kawiarnia z tradycją, słynna z wieczornych buchtelków. Klimat starego Wiednia.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2079316,16.3697835&query_place_id=ChIJ5f5FIZkHbUcRdBWrSKcFTPA"
+        }
       ]
     }
   ]

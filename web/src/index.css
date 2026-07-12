@@ -1,3 +1,5 @@
+@import 'leaflet/dist/leaflet.css';
+
 :root {
   --ocean: #8a5a1a;
   --ocean-dark: #5c3d12;
@@ -123,6 +125,7 @@ main {
 .badge-surfing { background: var(--surfing); }
 .badge-kultura { background: var(--kultura); }
 .badge-oba { background: var(--oba); }
+.badge-kategoria { background: var(--ocean); }
 
 .filters {
   display: flex;
@@ -148,11 +151,15 @@ main {
 }
 
 .map-wrapper {
-  height: 480px;
+  height: 460px;
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--border);
-  margin-bottom: 24px;
+  margin-bottom: 28px;
+}
+
+.leaflet-container {
+  font: inherit;
 }
 
 .leaflet-popup-content-wrapper {
@@ -162,6 +169,38 @@ main {
 .popup-title {
   font-weight: 600;
   margin-bottom: 4px;
+}
+
+.mapa-pin {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+.places {
+  margin-bottom: 28px;
+}
+
+.places h2 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+.badge-kategoria {
+  white-space: nowrap;
+}
+
+.card-links a {
+  color: var(--ocean);
+  font-weight: 600;
+}
+
+.timeline-title {
+  font-size: 1.3rem;
+  margin: 8px 0 12px;
 }
 
 .card-grid {
