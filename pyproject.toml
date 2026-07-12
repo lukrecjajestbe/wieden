@@ -1,0 +1,9 @@
+[project]
+name = "wieden"
+version = "0.1.0"
+description = "Plan wycieczki do Wiednia - generator danych dla strony"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "pillow>=12.3.0",
+]
