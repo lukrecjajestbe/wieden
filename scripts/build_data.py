@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PLAN_DIR = ROOT / "plan"
 OUTPUT_JSON = ROOT / "web" / "src" / "data" / "data.json"
+IMAGES_DIR = ROOT / "web" / "public" / "images"
 
 PLANY = [
     {"id": "wieden", "file": "wieden.md", "label": "Wiedeń"},
@@ -159,6 +160,13 @@ def clean_uwagi(uwagi_text: str) -> list[str]:
     return out
 
 
+def assign_images(places: list[dict], prefix: str) -> None:
+    for index, place in enumerate(places, start=1):
+        name = f"{prefix}-{index:02d}.jpg"
+        if (IMAGES_DIR / name).exists():
+            place["image"] = f"images/{name}"
+
+
 def build_plan(md_path: Path, plan_id: str, label: str) -> dict:
     text = md_path.read_text(encoding="utf-8")
 
@@ -169,8 +177,10 @@ def build_plan(md_path: Path, plan_id: str, label: str) -> dict:
     uwagi_text = extract_section(text, "Uwagi")
 
     atrakcje = parse_places(extract_section(text, "Atrakcje"))
-    for index, atrakcja in enumerate(atrakcje, start=1):
-        atrakcja["image"] = f"images/atrakcja-{plan_id}-{index:02d}.jpg"
+    assign_images(atrakcje, f"atrakcja-{plan_id}")
+
+    restauracje = parse_places(extract_section(text, "Restauracje"))
+    assign_images(restauracje, f"restauracja-{plan_id}")
 
     return {
         "id": plan_id,
@@ -181,7 +191,7 @@ def build_plan(md_path: Path, plan_id: str, label: str) -> dict:
         "koszty": extract_koszty(uwagi_text),
         "uwagi": clean_uwagi(uwagi_text),
         "atrakcje": atrakcje,
-        "restauracje": parse_places(extract_section(text, "Restauracje")),
+        "restauracje": restauracje,
     }
 
 

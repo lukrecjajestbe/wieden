@@ -130,7 +130,8 @@
           "lat": 48.2093669,
           "lng": 16.3746338,
           "opis": "Legendarny „dom sznycla\" - kotlet większy niż talerz. Blisko katedry, warto rezerwować stolik.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2093669,16.3746338&query_place_id=ChIJyUHiB5EHbUcReYQd2GSG7kg"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2093669,16.3746338&query_place_id=ChIJyUHiB5EHbUcReYQd2GSG7kg",
+          "image": "images/restauracja-wieden-01.jpg"
         },
         {
           "dzien": 1,
@@ -139,7 +140,8 @@
           "lat": 48.207521,
           "lng": 16.378672,
           "opis": "Świątynia Tafelspitzu (gotowana wołowina po cesarsku) podawanego w miedzianym garnku. Elegancko, ale bez sztywności.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.207521,16.378672&query_place_id=ChIJ8aGpZXUHbUcR7RhDMQpSArs"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.207521,16.378672&query_place_id=ChIJ8aGpZXUHbUcR7RhDMQpSArs",
+          "image": "images/restauracja-wieden-02.jpg"
         },
         {
           "dzien": 1,
@@ -147,8 +149,9 @@
           "kategoria": "Kuchnia wiedeńska",
           "lat": 48.2066898,
           "lng": 16.373828,
-          "opis": "Mała, przytulna gospoda z klasyką w domowym wydaniu. Kameralnie, spokojnie, blisko centrum.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2066898,16.373828&query_place_id=ChIJp324WJ4HbUcRb3WRtwYb7Dc"
+          "opis": "Mała, przytulna gospoda z klasyką w domowym wydaniu (m.in. zwiebelrostbraten). Kameralnie, spokojnie, blisko centrum.",
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2066898,16.373828&query_place_id=ChIJp324WJ4HbUcRb3WRtwYb7Dc",
+          "image": "images/restauracja-wieden-03.jpg"
         },
         {
           "dzien": 1,
@@ -157,7 +160,8 @@
           "lat": 48.2104274,
           "lng": 16.3654339,
           "opis": "Najsłynniejsza kawiarnia miasta w pięknym pałacu Ferstel, dawne miejsce spotkań literatów. Ciasta i lekkie dania.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2104274,16.3654339&query_place_id=ChIJLzsM95cHbUcRSS5C-z-H-ls"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2104274,16.3654339&query_place_id=ChIJLzsM95cHbUcRSS5C-z-H-ls",
+          "image": "images/restauracja-wieden-04.jpg"
         },
         {
           "dzien": 1,
@@ -166,7 +170,8 @@
           "lat": 48.2085962,
           "lng": 16.3672185,
           "opis": "Cesarska cukiernia przy Kohlmarkt, wypieki na najwyższym poziomie i witryna jak muzeum.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2085962,16.3672185&query_place_id=ChIJiY3_UpgHbUcRWCIbHu4EWXY"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2085962,16.3672185&query_place_id=ChIJiY3_UpgHbUcRWCIbHu4EWXY",
+          "image": "images/restauracja-wieden-05.jpg"
         },
         {
           "dzien": 2,
@@ -175,7 +180,8 @@
           "lat": 48.2039459,
           "lng": 16.3698418,
           "opis": "Dom oryginalnego tortu Sachera, tuż przy Operze. Elegancka kawiarnia z pełną obsługą.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2039459,16.3698418&query_place_id=ChIJI85wbpwHbUcR2nlviUzwg9s"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2039459,16.3698418&query_place_id=ChIJI85wbpwHbUcR2nlviUzwg9s",
+          "image": "images/restauracja-wieden-06.jpg"
         },
         {
           "dzien": 2,
@@ -184,7 +190,8 @@
           "lat": 48.2042832,
           "lng": 16.3694552,
           "opis": "Klasyczna kawiarnia za Operą, spokojne miejsce na kawę i strudel między zwiedzaniem.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2042832,16.3694552&query_place_id=ChIJualQc5wHbUcRhRfcsbPrVF0"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2042832,16.3694552&query_place_id=ChIJualQc5wHbUcRhRfcsbPrVF0",
+          "image": "images/restauracja-wieden-07.jpg"
         },
         {
           "dzien": 2,
@@ -193,7 +200,8 @@
           "lat": 48.2107455,
           "lng": 16.3772573,
           "opis": "Najstarsza gospoda Wiednia (XV w.), historyczne wnętrza. Klasyczna kuchnia w zabytkowej scenerii.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2107455,16.3772573&query_place_id=ChIJxbJGSKAHbUcRYkajfP16obQ"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2107455,16.3772573&query_place_id=ChIJxbJGSKAHbUcRYkajfP16obQ",
+          "image": "images/restauracja-wieden-08.jpg"
         },
         {
           "dzien": 2,
@@ -202,7 +210,8 @@
           "lat": 48.2100189,
           "lng": 16.3682914,
           "opis": "Kultowy lokal z 1618 r.: bar z kanapkami na stojąco i elegancka restauracja obok. Świetne wino i klasyka.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2100189,16.3682914&query_place_id=ChIJ7Wt7ZJgHbUcRhmIQOTicWhs"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2100189,16.3682914&query_place_id=ChIJ7Wt7ZJgHbUcRhmIQOTicWhs",
+          "image": "images/restauracja-wieden-09.jpg"
         },
         {
           "dzien": 2,
@@ -211,7 +220,8 @@
           "lat": 48.2079316,
           "lng": 16.3697835,
           "opis": "Kameralna, lekko bohemska kawiarnia z tradycją, słynna z wieczornych buchtelków. Klimat starego Wiednia.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2079316,16.3697835&query_place_id=ChIJ5f5FIZkHbUcRdBWrSKcFTPA"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2079316,16.3697835&query_place_id=ChIJ5f5FIZkHbUcRdBWrSKcFTPA",
+          "image": "images/restauracja-wieden-10.jpg"
         },
         {
           "dzien": 3,
@@ -220,7 +230,8 @@
           "lat": 48.2115469,
           "lng": 16.3615167,
           "opis": "Dostojna kawiarnia przy Ringu (obok Burgtheater), przestronna, z tarasem i pełnym menu.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2115469,16.3615167&query_place_id=ChIJualQc5wHbUcRrzBxds3JZ7I"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2115469,16.3615167&query_place_id=ChIJualQc5wHbUcRrzBxds3JZ7I",
+          "image": "images/restauracja-wieden-11.jpg"
         },
         {
           "dzien": 3,
@@ -229,7 +240,8 @@
           "lat": 48.2099567,
           "lng": 16.3611108,
           "opis": "Restauracja w gmachu Burgtheater, wykwintnie ale spokojnie, dobra na uroczystą kolację przy Ringu.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2099567,16.3611108&query_place_id=ChIJH0rFSJYHbUcRTwKtKwYkdak"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2099567,16.3611108&query_place_id=ChIJH0rFSJYHbUcRTwKtKwYkdak",
+          "image": "images/restauracja-wieden-12.jpg"
         },
         {
           "dzien": 3,
@@ -238,7 +250,8 @@
           "lat": 48.2109107,
           "lng": 16.3698038,
           "opis": "Tradycyjna restauracja w cichej uliczce, klimat starego Wiednia i solidne porcje.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2109107,16.3698038&query_place_id=ChIJ1UlZeaIHbUcRdLfcFYMRt2k"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2109107,16.3698038&query_place_id=ChIJ1UlZeaIHbUcRdLfcFYMRt2k",
+          "image": "images/restauracja-wieden-13.jpg"
         },
         {
           "dzien": 3,
@@ -247,7 +260,8 @@
           "lat": 48.208264,
           "lng": 16.3782733,
           "opis": "Swojski beisl z klasyką: gulasz, sznycel, sztrudel. Bezpretensjonalnie i w rozsądnej cenie.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.208264,16.3782733&query_place_id=ChIJmVlX4J8HbUcRdlcww7tgyrE"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.208264,16.3782733&query_place_id=ChIJmVlX4J8HbUcRdlcww7tgyrE",
+          "image": "images/restauracja-wieden-14.jpg"
         }
       ]
     }

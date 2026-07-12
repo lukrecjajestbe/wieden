@@ -34,6 +34,20 @@ SEARCH_QUERIES: dict[str, str] = {
     "atrakcja-wieden-06": "Wiener Riesenrad Prater Ferris wheel",
     "atrakcja-wieden-07": "Kunsthistorisches Museum Wien building Maria-Theresien-Platz",
     "atrakcja-wieden-08": "Belvedere Palace Vienna Upper garden",
+    "restauracja-wieden-01": "Wiener Schnitzel plate",
+    "restauracja-wieden-02": "Tafelspitz",
+    "restauracja-wieden-03": "Zwiebelrostbraten",
+    "restauracja-wieden-04": "Cafe Central Vienna interior",
+    "restauracja-wieden-05": "Demel Vienna confectionery",
+    "restauracja-wieden-06": "Sachertorte cake slice",
+    "restauracja-wieden-07": "Wiener Melange coffee",
+    "restauracja-wieden-08": "Griechenbeisl Vienna",
+    "restauracja-wieden-09": "Zum Schwarzen Kameel Vienna",
+    "restauracja-wieden-10": "Cafe Hawelka Vienna",
+    "restauracja-wieden-11": "Cafe Landtmann Vienna",
+    "restauracja-wieden-12": "Burgtheater Vienna interior",
+    "restauracja-wieden-13": "Kurrentgasse Vienna street",
+    "restauracja-wieden-14": "Bäckerstraße Wien",
 }
 
 
