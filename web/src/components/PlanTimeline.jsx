@@ -70,35 +70,6 @@ export default function PlanTimeline({ plan }) {
         })}
       </div>
 
-      {plan.koszty?.rows?.length > 0 && (
-        <section className="koszty">
-          <h2>Szacunkowy koszt dla 2 osób / 3 dni</h2>
-          <table className="koszty-table">
-            <thead>
-              <tr>
-                {plan.koszty.header.map((h, i) => (
-                  <th key={i}>{h}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {plan.koszty.rows.map((row, i) => {
-                const razem = row[0].includes('**')
-                return (
-                  <tr key={i} className={razem ? 'koszty-razem' : ''}>
-                    {row.map((cell, j) => (
-                      <td key={j}>
-                        <MarkdownText text={cell} as="span" />
-                      </td>
-                    ))}
-                  </tr>
-                )
-              })}
-            </tbody>
-          </table>
-        </section>
-      )}
-
       {plan.uwagi?.length > 0 && (
         <section className="plan-uwagi">
           {plan.uwagi.map((linia, i) => (

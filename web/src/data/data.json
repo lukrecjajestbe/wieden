@@ -28,54 +28,15 @@
           "image": "images/wieden-03.jpg"
         }
       ],
-      "koszty": {
-        "header": [
-          "Pozycja",
-          "Koszt (2 os.)"
-        ],
-        "rows": [
-          [
-            "Loty bezpośrednie PL ↔ Wiedeń",
-            "300 - 600 € (150-300 €/os.)"
-          ],
-          [
-            "Nocleg 2-3 noce (hotel 3-4* w centrum)",
-            "300 - 550 €"
-          ],
-          [
-            "Komunikacja miejska (bilet 72h × 2)",
-            "35 - 45 €"
-          ],
-          [
-            "Transfer lotnisko (CAT/pociąg w obie strony)",
-            "40 - 80 €"
-          ],
-          [
-            "Bilety: Schönbrunn, muzeum/Belweder, katedra",
-            "90 - 130 €"
-          ],
-          [
-            "Koncert Mozart/Strauss (2 bilety)",
-            "90 - 180 €"
-          ],
-          [
-            "Jedzenie, kawiarnie, ciasta",
-            "250 - 400 €"
-          ],
-          [
-            "**Razem**",
-            "**~1 100 - 1 985 €** (≈ 4 700 - 8 500 zł)"
-          ]
-        ]
-      },
+      "koszty": {},
       "uwagi": [
-        "**Charakterystyka:** miejski, kulturalny wypad w bardzo komfortowym tempie, dopasowany do osoby 60+. Zero sportów i zero forsownych tras: krótkie spacery po płaskim centrum, dojazdy metrem/tramwajem, dużo okazji, żeby usiąść (kawiarnie, muzea, koncert, ogrody pałacowe). Wszystkie główne atrakcje mają windy lub wejścia bez schodów.",
+        "**Charakterystyka:** miejski, kulturalny wypad w bardzo komfortowym tempie. Zero sportów i zero forsownych tras: krótkie spacery po płaskim centrum, dojazdy metrem/tramwajem, dużo okazji, żeby usiąść (kawiarnie, muzea, koncert, ogrody pałacowe). Wszystkie główne atrakcje mają windy lub wejścia bez schodów.",
         "**Pogoda i pora:** Wiedeń zwiedza się dobrze przez cały rok. Wiosna i wczesna jesień są najprzyjemniejsze (umiarkowane temperatury, ogrody Schönbrunn w pełnej krasie). Latem bywa gorąco, więc zwiedzanie najlepiej rano, a upalne południe spędzać w chłodnych wnętrzach muzeów. Zimą klimatyczne jarmarki, ale krótkie dni.",
         "**Uwagi praktyczne:**",
         "- Strefa euro, brak wizy, brak szczepień - formalnie najprostszy możliwy kierunek, lot z Polski ~1-1,5h.",
         "- Bilet turystyczny 72h na komunikację miejską opłaca się od razu i pozwala jeździć metrem/tramwajem bez liczenia przejazdów; kasowniki są przy wejściu na peron, nie w pojeździe.",
         "- Schönbrunn i popularne muzea: bilety kupić online z wyprzedzeniem i wybrać godzinę wejścia rano, żeby uniknąć kolejek i tłumu.",
-        "- Tempo dla osoby 60+: jedna główna atrakcja przed południem, potem długa przerwa na kawę i odpoczynek, ewentualnie druga lekka rzecz po południu. Nie ma potrzeby robić wszystkiego jednego dnia.",
+        "- Spokojne tempo: jedna główna atrakcja przed południem, potem długa przerwa na kawę i odpoczynek, ewentualnie druga lekka rzecz po południu. Nie ma potrzeby robić wszystkiego jednego dnia.",
         "- Kawiarnie z tradycją (Café Sacher, Central, Demel) bywają oblegane - najlepiej wpaść poza szczytem obiadowym; wszędzie są miejsca siedzące i obsługa kelnerska.",
         "- Wiedeńskie chodniki i wnętrza są przyjazne (windy, płaskie centrum), ale wygodne buty i tak się przydadzą."
       ],
@@ -87,7 +48,8 @@
           "lat": 48.2084114,
           "lng": 16.3734707,
           "opis": "Gotycki symbol Wiednia w samym sercu Starego Miasta. Na taras widokowy można wjechać windą, bez wspinaczki po schodach.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2084114,16.3734707&query_place_id=ChIJz-w_Ip8HbUcRWTHc-vNXlxc"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2084114,16.3734707&query_place_id=ChIJz-w_Ip8HbUcRWTHc-vNXlxc",
+          "image": "images/atrakcja-wieden-01.jpg"
         },
         {
           "dzien": 1,
@@ -96,7 +58,8 @@
           "lat": 48.2056578,
           "lng": 16.3647803,
           "opis": "Zimowa rezydencja Habsburgów w centrum: apartamenty cesarskie, Muzeum Sisi i skarbiec. Wszystko blisko siebie, na płaskim terenie.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2056578,16.3647803&query_place_id=ChIJ3wYgv5kHbUcRX0LEFIAWhYY"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2056578,16.3647803&query_place_id=ChIJ3wYgv5kHbUcRX0LEFIAWhYY",
+          "image": "images/atrakcja-wieden-02.jpg"
         },
         {
           "dzien": 2,
@@ -105,7 +68,8 @@
           "lat": 48.1858124,
           "lng": 16.3127641,
           "opis": "Letnia rezydencja cesarska z rozległymi ogrodami. Apartamenty zwiedza się z audioprzewodnikiem, po parku spaceruje w wolnym tempie (ławki, cień, kawiarnia).",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.1858124,16.3127641&query_place_id=ChIJv3zAHAmobUcRyYvq5F26aU4"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.1858124,16.3127641&query_place_id=ChIJv3zAHAmobUcRyYvq5F26aU4",
+          "image": "images/atrakcja-wieden-03.jpg"
         },
         {
           "dzien": 2,
@@ -114,7 +78,8 @@
           "lat": 48.1986788,
           "lng": 16.3635727,
           "opis": "Najsłynniejszy targ Wiednia: stragany z serami, oliwkami, przyprawami i mnóstwo miejsc, żeby usiąść na kawę lub przekąskę. Płaski, łatwy do przejścia.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.1986788,16.3635727"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.1986788,16.3635727",
+          "image": "images/atrakcja-wieden-04.jpg"
         },
         {
           "dzien": 2,
@@ -123,7 +88,8 @@
           "lat": 48.2034306,
           "lng": 16.3692034,
           "opis": "Jedna z najsłynniejszych scen operowych świata. Można zwiedzać z przewodnikiem w dzień albo wybrać się na wieczorny spektakl (miejsca siedzące).",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2034306,16.3692034&query_place_id=ChIJ1b8dhpwHbUcRVn03JY0mWf0"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2034306,16.3692034&query_place_id=ChIJ1b8dhpwHbUcRVn03JY0mWf0",
+          "image": "images/atrakcja-wieden-05.jpg"
         },
         {
           "dzien": 2,
@@ -132,7 +98,8 @@
           "lat": 48.2166995,
           "lng": 16.3959008,
           "opis": "Zabytkowy Riesenrad z 1897 r. Powolna, spokojna przejażdżka w przeszklonej gondoli z widokiem na całe miasto - żadnego wysiłku.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2166995,16.3959008&query_place_id=ChIJJYWNjA8HbUcRBlfleWeh1qw"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2166995,16.3959008&query_place_id=ChIJJYWNjA8HbUcRBlfleWeh1qw",
+          "image": "images/atrakcja-wieden-06.jpg"
         },
         {
           "dzien": 3,
@@ -141,7 +108,8 @@
           "lat": 48.2038016,
           "lng": 16.3617874,
           "opis": "Muzeum Historii Sztuki z Bruegelem i Vermeerem. Wnętrza z windami, ławki w salach, klimatyzacja w upał - idealne na spokojne popołudnie.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.2038016,16.3617874&query_place_id=ChIJ8XfPY5oHbUcRQbimbLVSYG8"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.2038016,16.3617874&query_place_id=ChIJ8XfPY5oHbUcRQbimbLVSYG8",
+          "image": "images/atrakcja-wieden-07.jpg"
         },
         {
           "dzien": 3,
@@ -150,7 +118,8 @@
           "lat": 48.1914751,
           "lng": 16.3809322,
           "opis": "Barokowy pałac z „Pocałunkiem\" Klimta i największym zbiorem jego dzieł. Ogrody dostępne bez biletu, spokojny spacer między dwoma pałacami.",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.1914751,16.3809322&query_place_id=ChIJpZ4LAn0HbUcRB3aToFL8ZUo"
+          "link": "https://www.google.com/maps/search/?api=1&query=48.1914751,16.3809322&query_place_id=ChIJpZ4LAn0HbUcRB3aToFL8ZUo",
+          "image": "images/atrakcja-wieden-08.jpg"
         }
       ],
       "restauracje": [

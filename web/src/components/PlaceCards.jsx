@@ -36,6 +36,14 @@ export default function PlaceCards({ tytul, punkty, filtruj = true }) {
       <div className="card-grid">
         {widoczne.map((punkt) => (
           <div className="card" key={punkt.nazwa}>
+            {punkt.image && (
+              <img
+                className="card-image"
+                src={`${import.meta.env.BASE_URL}${punkt.image}`}
+                alt={punkt.nazwa}
+                loading="lazy"
+              />
+            )}
             <div className="card-body">
               <h4 className="card-title">
                 {punkt.nazwa}

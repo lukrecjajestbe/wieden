@@ -168,6 +168,10 @@ def build_plan(md_path: Path, plan_id: str, label: str) -> dict:
 
     uwagi_text = extract_section(text, "Uwagi")
 
+    atrakcje = parse_places(extract_section(text, "Atrakcje"))
+    for index, atrakcja in enumerate(atrakcje, start=1):
+        atrakcja["image"] = f"images/atrakcja-{plan_id}-{index:02d}.jpg"
+
     return {
         "id": plan_id,
         "label": label,
@@ -176,7 +180,7 @@ def build_plan(md_path: Path, plan_id: str, label: str) -> dict:
         "dni": days,
         "koszty": extract_koszty(uwagi_text),
         "uwagi": clean_uwagi(uwagi_text),
-        "atrakcje": parse_places(extract_section(text, "Atrakcje")),
+        "atrakcje": atrakcje,
         "restauracje": parse_places(extract_section(text, "Restauracje")),
     }
 

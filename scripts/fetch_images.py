@@ -26,6 +26,14 @@ SEARCH_QUERIES: dict[str, str] = {
     "wieden-01": "Schonbrunn Palace Vienna garden",
     "wieden-02": "Vienna State Opera building",
     "wieden-03": "Kunsthistorisches Museum Vienna exterior",
+    "atrakcja-wieden-01": "Stephansdom Vienna south tower full view",
+    "atrakcja-wieden-02": "Hofburg Palace Vienna facade",
+    "atrakcja-wieden-03": "Schonbrunn Palace Vienna facade",
+    "atrakcja-wieden-04": "Naschmarkt Vienna market stalls",
+    "atrakcja-wieden-05": "Vienna State Opera building",
+    "atrakcja-wieden-06": "Wiener Riesenrad Prater Ferris wheel",
+    "atrakcja-wieden-07": "Kunsthistorisches Museum Wien building Maria-Theresien-Platz",
+    "atrakcja-wieden-08": "Belvedere Palace Vienna Upper garden",
 }
 
 
