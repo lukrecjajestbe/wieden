@@ -24,6 +24,8 @@ function srodekMapy(punkty) {
 
 export default function PlanTimeline({ plan }) {
   const punkty = punktyMapy(plan)
+  const atrakcje = plan.atrakcje ?? []
+  const restauracje = plan.restauracje ?? []
 
   return (
     <div>
@@ -31,32 +33,39 @@ export default function PlanTimeline({ plan }) {
 
       <WienMap punkty={punkty} center={srodekMapy(punkty)} />
 
-      <PlaceCards tytul="Atrakcje" punkty={plan.atrakcje ?? []} />
-      <PlaceCards tytul="Gdzie zjeść i napić się kawy" punkty={plan.restauracje ?? []} />
-
-      <h2 className="timeline-title">Plan dzień po dniu</h2>
-      <div className="timeline">
+      <div className="dni">
         {plan.dni.map((dzien) => {
           const image = imageForDay(dzien)
+          const atrakcjeDnia = atrakcje.filter((a) => a.dzien === dzien.dzien)
+          const restauracjeDnia = restauracje.filter((r) => r.dzien === dzien.dzien)
           return (
-            <div className="timeline-day" key={dzien.dzien}>
-              {image ? (
-                <img
-                  className="timeline-day-thumb"
-                  src={image}
-                  alt={dzien.miejsce}
-                  loading="lazy"
-                />
-              ) : (
-                <div className="timeline-day-thumb" />
-              )}
-              <div className="timeline-day-num">{dzien.dzien}</div>
-              <div className="timeline-day-meta">{dzien.data}</div>
-              <div className="timeline-day-body">
-                <div className="timeline-day-place">{dzien.miejsce}</div>
-                <MarkdownText text={dzien.plan} className="timeline-day-plan" />
-              </div>
-            </div>
+            <section className="dzien" key={dzien.dzien}>
+              <header className="dzien-header">
+                {image && (
+                  <img
+                    className="dzien-header-thumb"
+                    src={image}
+                    alt={dzien.miejsce}
+                    loading="lazy"
+                  />
+                )}
+                <div className="dzien-header-body">
+                  <div className="dzien-header-num">
+                    Dzień {dzien.dzien}
+                    <span className="dzien-header-date">{dzien.data}</span>
+                  </div>
+                  <div className="dzien-header-place">{dzien.miejsce}</div>
+                  <MarkdownText text={dzien.plan} className="dzien-header-plan" />
+                </div>
+              </header>
+
+              <PlaceCards tytul="Atrakcje" punkty={atrakcjeDnia} filtruj={false} />
+              <PlaceCards
+                tytul="Gdzie zjeść i napić się kawy"
+                punkty={restauracjeDnia}
+                filtruj={false}
+              />
+            </section>
           )
         })}
       </div>

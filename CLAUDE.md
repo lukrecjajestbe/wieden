@@ -9,8 +9,9 @@ Instrukcje dla Claude Code dotyczące pracy w tym repo (planowanie krótkiej wyc
   - akapit wprowadzenia (intro) tuż pod tytułem
   - tabelę dni w formacie `| Dzień | Data | Miejsce (nocleg) | Plan |` (parsowaną wprost przez `scripts/build_data.py` - kolejność i liczba kolumn są sztywne)
   - sekcję zaczynającą się od `## Uwagi` z orientacyjną wyceną kosztów dla 2 osób (tabela) i praktycznymi uwagami
-  - opcjonalną sekcję `## Atrakcje` (tabela `| Nazwa | Kategoria | Lat | Lng | Opis | Link |`) - punkty na mapie i osobne kafelki
-  - opcjonalną sekcję `## Restauracje` (tabela `| Nazwa | Typ | Lat | Lng | Opis | Link |`) - kafelki gastronomiczne i punkty na mapie
+  - opcjonalną sekcję `## Atrakcje` (tabela `| Dzień | Nazwa | Kategoria | Lat | Lng | Opis | Link |`) - punkty na mapie i osobne kafelki, pogrupowane w sekcje dni
+  - opcjonalną sekcję `## Restauracje` (tabela `| Dzień | Nazwa | Typ | Lat | Lng | Opis | Link |`) - kafelki gastronomiczne i punkty na mapie, pogrupowane w sekcje dni
+  - kolumna `Dzień` (liczba) łączy atrakcję/restaurację z wierszem tabeli dni o tym samym numerze - na stronie kafelki są pokazane w sekcji tego dnia
   - kolumny `Lat`/`Lng` to liczby (współrzędne), `Link` to pełny URL do Google Maps; wiersze bez poprawnych współrzędnych są pomijane przy parsowaniu
 - `plan/README.md` - skrót planu, aktualizować gdy zmieni się plan.
 - `scripts/build_data.py` - skrypt generujący `web/src/data/data.json` (dane dla interaktywnej strony) z plików `plan/*.md`. Lista planów jest zadeklarowana w stałej `PLANY` na górze skryptu - żeby dodać/usunąć kierunek, edytuj tę listę. Skrypt parsuje z każdego pliku: intro (akapit pod tytułem), tabelę dni, tabelę kosztów z sekcji `## Uwagi` (jako strukturalne pole `koszty`) oraz pozostałe akapity uwag (pole `uwagi`, bez surowego markdownu tabel).
@@ -40,9 +41,9 @@ uv run scripts/build_data.py
 Frontend to React + Vite (bez TypeScript), zależności npm (nie uv - to warstwa JS, oddzielna od skryptu Pythona). Dane wczytywane statycznie z `web/src/data/data.json` (import JSON w `App.jsx`), generowane przez `scripts/build_data.py` - nigdy nie edytuj tego pliku ręcznie.
 
 Struktura komponentów w `web/src/components/`:
-- `PlanTimeline.jsx` - składa cały widok planu: mapa (`WienMap`), kafelki atrakcji i restauracji (`PlaceCards`), a niżej oś czasu dzień po dniu i wycena
-- `WienMap.jsx` - mapa Leaflet (react-leaflet) ze znacznikami atrakcji i restauracji; kolor znacznika zależy od kategorii, popup ma link do Google Maps. Znaczniki to `L.divIcon` (kolorowe kropki), więc nie ma problemu z domyślnymi obrazkami markerów Leafletu przy buildzie
-- `PlaceCards.jsx` - siatka kafelków (jeden na atrakcję/restaurację) z badge kategorii, opisem i linkiem do Google Maps; nad siatką filtr kategorii (pokazywany gdy jest więcej niż jedna kategoria)
+- `PlanTimeline.jsx` - składa cały widok planu: mapa (`WienMap`), potem sekcje dni (jedna na wiersz tabeli dni), a niżej wycena i uwagi. Każda sekcja dnia ma nagłówek (numer, podpis z kolumny `Data`, zdjęcie, opis planu) i pod nim kafelki atrakcji oraz restauracji przypisanych do tego dnia (`punkt.dzien === dzien.dzien`)
+- `WienMap.jsx` - mapa Leaflet (react-leaflet) ze znacznikami wszystkich atrakcji i restauracji; kolor znacznika zależy od kategorii, pod mapą legenda kolorów, popup ma numer dnia, kategorię i link do Google Maps. Znaczniki to `L.divIcon` (kolorowe kropki), więc nie ma problemu z domyślnymi obrazkami markerów Leafletu przy buildzie
+- `PlaceCards.jsx` - siatka kafelków (jeden na atrakcję/restaurację) z badge kategorii, opisem i linkiem do Google Maps; prop `filtruj` (domyślnie `true`) włącza filtr kategorii nad siatką - w sekcjach dni jest wyłączony, bo listy są krótkie
 - `MarkdownText.jsx` - lekki renderer markdown (bold, linki, listy `- `) używany wszędzie tam, gdzie tekst pochodzi z plików `.md` - nie wyświetlaj surowego tekstu z `data.json` bez przepuszczenia przez ten komponent, bo będą widoczne gwiazdki `**...**`
 
 Mapa używa kafelków OpenStreetMap (zewnętrzny serwer tiles) - działa na GitHub Pages, nie wymaga klucza API. CSS Leafletu jest importowany na górze `web/src/index.css` (`@import 'leaflet/dist/leaflet.css'`).

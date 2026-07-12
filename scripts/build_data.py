@@ -127,8 +127,11 @@ def parse_places(section_text: str) -> list[dict]:
             lng = float(record.get("lng", ""))
         except ValueError:
             continue
+        dzien_raw = record.get("dzień") or record.get("dzien") or ""
+        dzien = int(dzien_raw) if dzien_raw.strip().isdigit() else None
         places.append(
             {
+                "dzien": dzien,
                 "nazwa": record.get("nazwa", "").strip(),
                 "kategoria": (
                     record.get("kategoria") or record.get("typ") or ""

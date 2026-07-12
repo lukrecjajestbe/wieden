@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 
-export default function PlaceCards({ tytul, punkty }) {
+export default function PlaceCards({ tytul, punkty, filtruj = true }) {
   const [filtr, setFiltr] = useState('wszystkie')
 
   const kategorie = useMemo(() => {
@@ -9,15 +9,17 @@ export default function PlaceCards({ tytul, punkty }) {
   }, [punkty])
 
   const widoczne =
-    filtr === 'wszystkie' ? punkty : punkty.filter((p) => p.kategoria === filtr)
+    !filtruj || filtr === 'wszystkie'
+      ? punkty
+      : punkty.filter((p) => p.kategoria === filtr)
 
   if (!punkty?.length) return null
 
   return (
-    <section className="places">
-      <h2>{tytul}</h2>
+    <div className="places">
+      <h3 className="places-title">{tytul}</h3>
 
-      {kategorie.length > 2 && (
+      {filtruj && kategorie.length > 2 && (
         <div className="filters">
           {kategorie.map((k) => (
             <button
@@ -35,12 +37,12 @@ export default function PlaceCards({ tytul, punkty }) {
         {widoczne.map((punkt) => (
           <div className="card" key={punkt.nazwa}>
             <div className="card-body">
-              <h3>
+              <h4 className="card-title">
                 {punkt.nazwa}
                 {punkt.kategoria && (
                   <span className="badge badge-kategoria">{punkt.kategoria}</span>
                 )}
-              </h3>
+              </h4>
               {punkt.opis && <p className="card-text">{punkt.opis}</p>}
               {punkt.link && (
                 <div className="card-links">
@@ -53,6 +55,6 @@ export default function PlaceCards({ tytul, punkty }) {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   )
 }
